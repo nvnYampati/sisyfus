@@ -1,0 +1,22 @@
+minimum_cumulusci_version: '3.74.0'
+project:
+    name: sisyfus
+    package:
+        name: sisyfus
+        api_version: '55.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/sisyfus/tests
+            options:
+                outputdir: robot/sisyfus/results
+
+    robot_testdoc:
+        options:
+            path: robot/sisyfus/tests
+            output: robot/sisyfus/doc/sisyfus_tests.html
+
