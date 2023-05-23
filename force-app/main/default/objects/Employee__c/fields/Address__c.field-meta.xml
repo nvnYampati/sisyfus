@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Address__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Address Location of Employee.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Address Location of Employee.</inlineHelpText>
+    <label>Address</label>
+    <referenceTo>Locations__c</referenceTo>
+    <relationshipLabel>Employees</relationshipLabel>
+    <relationshipName>Employees</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

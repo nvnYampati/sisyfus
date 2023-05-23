@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivery_Lot__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Delivery Lot in which the Consignment was transported.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Auto-fills before delivery operation.</inlineHelpText>
+    <label>Delivery Lot</label>
+    <referenceTo>Delivery_Lot__c</referenceTo>
+    <relationshipLabel>Consignments</relationshipLabel>
+    <relationshipName>Consignments</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
