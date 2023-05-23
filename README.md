@@ -1,18 +1,21 @@
-# Salesforce DX Project: Next Steps
+# project Sisyfus
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Greetings Traveller! You have reached Sisyfus, which never reaches to the peaks of perfection, but attempts to reach it. This project remains open for anyone to innovate and request for pull. Anyone can test it and raise an issue. When issues are closed, desired innovations are merged into the project.
 
-## How Do You Plan to Deploy Your Changes?
+## What is Perfection?
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Perfection is subjective, its definition changes for person to person. But, here perfection is Simplicity, Practicality and Accessiblity.
 
-## Configure Your Salesforce DX Project
+Simplicity - Solutions provided should be cost effective, simple to implement, learn and run.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Practicality - The given Solution must be practical for broader spectrum of stakeholders.
+
+Accessibilty - Solutions should not be foreign looking, medium of communication is English and provide guides where necessary(it is highly apprecited).
+
+## Final Note
+Happy Tweaking.
+
 
 ## Read All About It
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+
