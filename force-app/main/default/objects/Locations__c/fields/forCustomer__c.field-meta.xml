@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>forCustomer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check it if this location is a Customer&apos;s location.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check it if this location is a Customer&apos;s location.</inlineHelpText>
+    <label>forCustomer</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

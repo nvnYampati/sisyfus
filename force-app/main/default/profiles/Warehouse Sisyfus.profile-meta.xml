@@ -7,6 +7,11 @@
     </applicationVisibilities>
     <custom>true</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Branch__c.Branch_Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Consignment__c.Branch__c</field>
         <readable>true</readable>
@@ -89,6 +94,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Locations__c.Land_Mark__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Locations__c.forBranch__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Locations__c.forCustomer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Locations__c.forDelivery__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
