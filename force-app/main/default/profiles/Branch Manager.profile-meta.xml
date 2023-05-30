@@ -7,6 +7,26 @@
     </applicationVisibilities>
     <custom>true</custom>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Base_Price__mdt.Base_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Base_Price__mdt.Primary_Mode_of_Logistics__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Base_Price__mdt.Seconday_Mode_of_Logistics__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Base_Price__mdt.Weight_Segment__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Branch__c.Branch_Location__c</field>
         <readable>true</readable>
@@ -49,6 +69,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Customer__c.Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Delivery_Lot__c.Number_of_Consignments__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -121,6 +146,14 @@
         <field>Payroll__c.Payment__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Price_List__c.Weight_Segment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>Base_Price__mdt-Base Price Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Branch__c-Branch Layout</layout>
     </layoutAssignments>
@@ -144,6 +177,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Payroll__c-Payroll Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Price_List__c-Price List Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Mode_of_Logistics__c</fullName>
+    <description>Select a Mode of logistics primarily used for the Parcel&apos;s journey.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Select a Mode of logistics primarily used for the Parcel&apos;s journey.</inlineHelpText>
+    <label>Primary Mode of Logistics</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Land Carrier</fullName>
+                <default>true</default>
+                <label>Land Carrier</label>
+            </value>
+            <value>
+                <fullName>Water Carrier</fullName>
+                <default>false</default>
+                <label>Water Carrier</label>
+            </value>
+            <value>
+                <fullName>Air Carrier</fullName>
+                <default>false</default>
+                <label>Air Carrier</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

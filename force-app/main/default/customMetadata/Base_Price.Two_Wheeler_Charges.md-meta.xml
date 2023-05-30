@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Two Wheeler Charges</label>
+    <protected>false</protected>
+    <values>
+        <field>Base_Amount__c</field>
+        <value xsi:type="xsd:double">10.0</value>
+    </values>
+    <values>
+        <field>Primary_Mode_of_Logistics__c</field>
+        <value xsi:type="xsd:string">Land Carrier</value>
+    </values>
+    <values>
+        <field>Seconday_Mode_of_Logistics__c</field>
+        <value xsi:type="xsd:string">Land Carrier</value>
+    </values>
+    <values>
+        <field>Weight_Segment__c</field>
+        <value xsi:type="xsd:string">1 to 3 kgs</value>
+    </values>
+</CustomMetadata>
